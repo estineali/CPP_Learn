@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string.h>
 
 
 class AllStrings
@@ -54,5 +55,11 @@ public:
 		//Doesnt show because \0 doesnt show on the screen but its there since it prints an empty space
 
 		//Add the string Object details.
+
+		std::string str = "Hello String.h"; 
+ 
+		std::cout << "new std::string object: \"" << str << "\"" << std::endl; 
+
+		
 	}
 };
